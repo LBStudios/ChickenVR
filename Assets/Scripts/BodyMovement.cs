@@ -13,6 +13,8 @@ public class BodyMovement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        Screen.fullScreen = false;
+
 		ResetBody();
 	}
 

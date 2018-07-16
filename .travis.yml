@@ -1,0 +1,11 @@
+# Travis config
+
+language: objective-c
+osx_image: xcode61
+
+rvm:
+- 2.1.2
+install:
+- ./travis-ci/install.sh
+script:
+- ./travis-ci/build.sh

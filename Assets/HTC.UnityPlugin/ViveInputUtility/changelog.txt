@@ -1,6 +1,28 @@
-﻿# Vive Input Utility for Unity - v1.8.2
+﻿# Vive Input Utility for Unity - v1.8.3
 Copyright (c) 2016-2018, HTC Corporation. All rights reserved.
 
+
+## Changes for v1.8.3:
+
+* Improvement
+  - Improve simulator module
+    - Add instruction UI
+    - Add group control (devices move alone with camera)
+    - See [Simulator](https://github.com/ViveSoftware/ViveInputUtility-Unity/wiki/Simulator) for more detail
+![VIUSettings in Preference window](https://github.com/ViveSoftware/ViveInputUtility-Unity/blob/gh-pages/assets/img/simulator_01.png)
+  - Add ReticlePose.IReticleMaterialChanger interface, better way to indicate different type of pointing object
+    - Now you can setup default reticle material in ReticlePose property
+![VIUSettings in Preference window](https://github.com/ViveSoftware/ViveInputUtility-Unity/blob/gh-pages/assets/img/retical_mat_changer_default_setup.png)
+    - Setup reticle material property in component that implement IReticleMaterialChanger
+![VIUSettings in Preference window](https://github.com/ViveSoftware/ViveInputUtility-Unity/blob/gh-pages/assets/img/retical_mat_changer_walkable_setup.png)
+  - Add support for WaveVR SDK v2.0.37
+
+* Bug fix
+  - Fix tracking device pose not applying scale from the origin transform
+  - Fix SteamVRModule reporting wrong input-focus state
+  - Fix ViveRigidPoseTracker broke after re-enabled
+  - Fix PoseModifier not work correctly ordered by priority value
+  
 
 ## Changes for v1.8.2
 
