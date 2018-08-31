@@ -11,8 +11,7 @@ space. We began work on Chicken VR during our eighth grade year at Black Pine Ci
 
 **Where to find the game**
 
-We are currently working on publishing the game on Steam for anyone to play, but for now you can run it on Unity yourself. We also plan to make a desktop version that won't
-require an HTC Vive. This will be included in a future update.
+[Chicken VR is on Steam](https://store.steampowered.com/app/910260/Chicken_VR/). The source code is on GitHub for us and anyone curious about how we made the game. It builds with Unity 2017.4.7f1 and should work with newer versions.
 
 **About us**
 
